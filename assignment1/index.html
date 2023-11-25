@@ -1,0 +1,37 @@
+<!--*****************ass1 -->
+<!-- لديك أكثر من Code كلهم يقوموا بعمل نفس الوظيفة قم بكتابة تعليق Multiple Lines تشرح فيه باللغة الإنجليزية ما هو ال Code الذي لن يعمل مع ذكر السبب -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <!--  -->
+    <script>
+// Code One
+//this won't run because the window isn't loaded yet so can't find the element
+        document.getElementById("el").style.color = "red";
+       // <h1 id="el">Page Title</h1>
+    </script>
+    <!-- * -->
+    <h1 id="el">Page Title</h1>
+    <script>
+        // Code Two
+        //  this will run
+        window.onload = function () {
+            document.getElementById("el").style.color = "red";
+        };
+    </script>
+</head>
+
+<body>
+    <!-- <h1 id="el">Page Title</h1>
+    <script>
+        // Code Three
+        //  this will run
+        document.getElementById("el").style.color = "red";
+    </script> -->
+</body>
+
+</html>
