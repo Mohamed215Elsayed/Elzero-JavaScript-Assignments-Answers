@@ -1,0 +1,193 @@
+Extensions that be added?
+Bracket Pair Colorizer 2
+Editor Config
+EsLint
+GitLens
+Indent Rainbow
+Live Server
+Material Icon Theme
+Path Intellisense
+Prettier
+VS Code Icons
+/*******************/
+Chrome Dev Tools Official Website
+Chrome DevTools 20+ Tips and Tricks
+Chrome Developer Tools Main Concepts and Principles Explained
+/***************************** */
+What Is ECMAScript ?
+ECMAScript (or ES) is a standardized scripting language specification that defines the syntax, semantics, and behavior of scripting languages.
+It is the international standard for scripting languages, and JavaScript is the most popular implementation of ECMAScript.
+
+The ECMAScript specification is maintained by the Ecma International organization, which is a standards organization for information and communication systems.
+The goal of ECMAScript is to standardize the core features of scripting languages to ensure interoperability across different platforms and implementations.
+
+JavaScript, as a programming language, is based on the ECMAScript specification.
+JavaScript engines in web browsers and other environments implement the ECMAScript specification to provide the necessary runtime environment for executing JavaScript code.
+
+Over the years, several versions of ECMAScript have been released, each introducing new features, syntax enhancements, and improvements to the language.
+The major versions of ECMAScript include ES5, ES6 (also known as ES2015), ES2016, ES2017, ES2018, ES2019, ES2020, ES2021, and ES2022.
+Each version brings new capabilities and enhancements to JavaScript, enabling developers to write more expressive and powerful code.
+
+In summary, ECMAScript is the standardized specification that defines the features and behavior of scripting languages, with JavaScript being the most widely used implementation of ECMAScript.
+/**********************************/
+JavaScript Console???
+
+To open the JavaScript console in most web browsers, you can use the following keyboard shortcuts:
+Google Chrome: Press Ctrl + Shift + J (Windows/Linux) or Cmd + Option + J (Mac).
+Mozilla Firefox: Press Ctrl + Shift + K (Windows/Linux) or Cmd + Option + K (Mac).
+Microsoft Edge: Press Ctrl + Shift + J (Windows/Linux) or Cmd + Option + J (Mac).
+Safari: Safari > Preferences > Advanced > Show Develop menu in menu bar. Then, Develop > Show JavaScript Console.
+Once the console is open, you can interact with it by typing JavaScript code directly into the console prompt and pressing Enter to execute 
+console.dir(): Outputs a DOM element with an interactive tree in the console.
+/**********************************************************/
+Scripting Language
+A (scripting) language is a (programming) language that is typically used for scripting or automating tasks within a software application or a larger system.
+Unlike (compiled) languages, scripting languages are (interpreted) at runtime rather than translated into (machine) code before execution.
+
+Scripting languages are often designed to be easy to learn and use, with a focus on simplicity and rapid development.
+They provide high-level abstractions and built-in features that simplify common tasks, making them well-suited for tasks such as 
+automating repetitive actions, writing small utility programs, and prototyping.
+
+Some examples of popular scripting languages include:????
+1-JavaScript: A versatile scripting language primarily used for web development. 
+It is executed within web browsers and can manipulate web page content, handle user interactions, and communicate with servers.
+
+2-Python: A general-purpose scripting language known for its simplicity and readability.
+Python is widely used in various domains, including web development, data analysis, scientific computing,and automation.
+
+3-Ruby: A flexible and expressive scripting language often used for web development.
+Ruby on Rails, a popular web framework, is built using Ruby.
+
+4-PHP: A server-side scripting language commonly used for web development.
+PHP is designed to generate dynamic web pages and interact with databases.
+
+5-Bash: A scripting language used in (Unix-like operating systems) for automating command-line tasks and writing shell scripts.
+
+6-PowerShell: A scripting language developed by Microsoft for task automation and configuration management in Windows environments.
+
+Scripting languages are typically (interpreted by a runtime environment) or an interpreter, which executes the code line by line instead of compiling it into machine code.
+This allows for (faster) development cycles, easier debugging, and better flexibility in adapting to changing requirements.
+
+While (scripting) languages are often used for (smaller-scale) tasks, many also offer the ability to build larger applications and systems. They provide libraries, frameworks, and community support that enable developers to create robust and complex software solutions using scripting languages.
+/*******************************************************************/
+Chrome Dev Tools????
+
+Chrome DevTools is a set of (web development and debugging tools) built into the Google Chrome browser.
+It provides a comprehensive suite of features that help developers analyze, debug, and optimize web applications.
+
+To access Chrome DevTools, you can right-click on a web page and select "Inspect" or use the keyboard shortcut
+`Ctrl + Shift + I`(Windows/Linux)
+or `Cmd + Option + I` (Mac). 
+This opens the DevTools panel, which can be docked on the side, bottom, or as a separate window depending on your preference.
+
+Here are some key features and functionalities offered by Chrome DevTools:
+
+1. Elements: Inspect and modify the HTML and CSS of a web page in real-time.
+You can view and edit the DOM (Document Object Model), modify styles, and experiment with layout changes.
+
+2. Console: Write and execute JavaScript code in the browser's JavaScript console.
+You can log messages, debug code, and interact with the current page or application.
+
+3. Network: Monitor and analyze network requests made by a web page.
+You can view details of each request, including headers, response data, and timing information.
+The network panel also provides performance analysis tools.
+
+4. Sources: Debug JavaScript code using breakpoints, step through code execution, and inspect variables and call stacks.
+The sources panel also supports live editing of JavaScript and CSS files.
+
+5. Performance: Analyze and optimize the performance of a web page.
+The performance panel provides insights into loading times, rendering performance, and bottlenecks.
+It offers tools for recording and analyzing performance profiles.
+
+6. Application: Inspect and modify local storage, session storage, cookies, indexedDB, and other web application data.
+You can simulate different network conditions and (test how your application behaves offline).
+
+7. Audits: Run audits to identify common performance, accessibility, and best practice issues in your web application.
+The audits panel provides recommendations and suggestions for improving your site's performance and user experience.
+
+Additionally, Chrome DevTools offers features like mobile device emulation, CSS coverage analysis, memory profiling, security audits, and more, making it a powerful tool for web development and debugging.
+
+The DevTools panel provides an interactive and rich environment for inspecting and troubleshooting web applications, allowing developers to iterate quickly and improve the quality and performance of their websites or web applications.
+/************************************************/
+JavaScript is used to create client-side dynamic pages.
+JavaScript is an object-based scripting language which is lightweight and cross-platform.
+JavaScript is (not a compiled) language, but it is a (translated) language.
+The JavaScript Translator(embedded in the browser) is responsible for translating the JavaScript code for the web browser.
+/***************************************************** */
+What is JavaScript??
+JavaScript (js) is a (light-weight & object-oriented & programming) language which is used by several websites for scripting the webpages. 
+It is an (interpreted, full-fledged programming) language that enables dynamic interactivity on websites when applied to an HTML document.
+It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser.
+Since then, it has been adopted by all other graphical web browsers.
+With JavaScript, users can build modern web applications to interact directly without reloading the page every time.
+The traditional website uses js to provide several forms of interactivity and simplicity.
+Although, JavaScript has no connectivity with Java programming language.
+The name was suggested and provided in the times when Java was gaining popularity in the market.
+In addition to web browsers, databases such as CouchDB and MongoDB uses JavaScript as their (scripting and query) language.
+/***************************************************** */
+Features of JavaScript??
+
+All popular web browsers support JavaScript as they provide built-in execution environments.
+JavaScript follows the syntax and structure of the C programming language.
+Thus, it is a *(structured) programming language.
+JavaScript is a weakly typed language, where certain types are implicitly cast (depending on the operation).
+JavaScript is an object-oriented programming language that uses prototypes rather than using classes for inheritance.
+It is a light-weighted and (interpreted) language.
+It is a case-sensitive language.
+JavaScript is supportable in several operating systems including, Windows, macOS, etc.
+It provides good control to the users over the web browsers.
+/******************************************************/
+History of JavaScript??
+In 1993, Mosaic, the first popular web browser, came into existence. In the year 1994, Netscape was founded by Marc Andreessen.
+He realized that the web needed to become more dynamic.
+Thus, a 'glue language' was believed to be provided to HTML to make web designing easy for designers and part-time programmers.
+Consequently, in 1995, the company recruited Brendan Eich intending to implement and embed Scheme programming language to the browser.
+But, before Brendan could start, the company merged with Sun Microsystems for adding Java into its Navigator so that it could compete with Microsoft over the web technologies and platforms.
+Now, two languages were there: Java and the scripting language.
+Further, Netscape decided to give a similar name to the scripting language as Java's.
+It led to 'Javascript'.
+Finally, in May 1995, Marc Andreessen coined the first code of Javascript named 'Mocha'.
+Later, the marketing team replaced the name with 'LiveScript'.
+But, due to trademark reasons and certain other reasons, in December 1995, the language was finally renamed to 'JavaScript'.
+From then, JavaScript came into existence.
+/***************************************************** */
+Application of JavaScript??????????
+
+JavaScript is used to create interactive websites.It is mainly used for:
+Client-side validation,
+Dynamic drop-down menus,
+Displaying date and time,
+Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box and prompt dialog box),
+Displaying clocks etc.
+/***************************************************** */
+The document.write()
+function is used to display dynamic content through JavaScript.
+/***************************************************** */
+3 Places to put JavaScript code???
+
+Between the body tag of html
+Between the head tag of html
+In .js file (external javaScript)
+/*********************************************************/
+Advantages of External JavaScript????
+
+It helps in the reusability of code in more than one HTML file.
+It allows easy code readability.
+It is time-efficient as web browsers cache the external js files, which further reduces the page loading time.
+It enables both web designers and coders to work with html and js files parallelly and separately, i.e., without facing any code conflictions.
+The length of the code reduces as only we need to specify the location of the js file.
+We can create external JavaScript file and embed it in many html page.
+It provides code reusability because single JavaScript file can be used in several html pages.
+An external JavaScript file must be saved by .js extension.
+It is recommended to embed all JavaScript files into a single file.
+It increases the speed of the webpage.
+/********************************************************/
+Disadvantages of External JavaScript????
+
+The stealer may download the coder's code using the url of the js file.
+If two js files are dependent on one another, then a failure in one file may affect the execution of the other dependent file.
+The web browser needs to make an additional http request to get the js code.
+A tiny to a large change in the js code may cause unexpected results in all its dependent files.
+We need to check each file that depends on the commonly created external javascript file.
+If it is a few lines of code, then better to implement the internal javascript code.
+/*********************************************************/

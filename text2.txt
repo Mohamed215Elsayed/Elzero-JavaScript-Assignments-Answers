@@ -1,0 +1,233 @@
+1- Var Let const
+2-loosely typed in js and strongly typed.
+/*****************/
+Var
+- Redeclare (Yes)
+- Access Before Declare (Undefined)
+- Variable Scope Drama [Added To Window] ()
+- Block Or Scope Function
+
+Let
+- Redeclare (No => Error)
+- Access Before Declare (Error)
+- Variable Scope Drama ()
+- Block Or Scope Function
+
+Const
+- Redeclare (No => Error)
+- Access Before Declare (Error)
+- Variable Scope Drama ()
+- Block Or Scope Function
+
+Redeclare: Variables declared with var can be redeclared within the same scope without throwing an error.
+However, this behavior can lead to unexpected results and is generally discouraged.
+Access Before Declare: Variables declared with var can be accessed before they are declared.
+JavaScript automatically hoists var declarations to the top of their scope, so they are accessible throughout the entire scope.
+However, their value will be undefined until they are assigned a value.
+Variable Scope Drama: Variables declared with var have function scope, meaning they are accessible within the entire function in which they are declared.
+If a variable is declared inside a block (e.g., if statement or loop), it is still accessible outside the block.
+Block or Scope Function: var does not have block scope.
+Variables declared with var are scoped to the nearest function enclosing them.
+
+Let:
+Redeclare: Variables declared with let cannot be redeclared within the same scope.
+Attempting to do so will result in an error.
+Access Before Declare: Variables declared with let are not accessible before they are declared.
+If you try to access a let variable before its declaration, you will get a reference error.
+Variable Scope Drama: Variables declared with let have block scope.
+They are only accessible within the block in which they are declared, including nested blocks.
+Block or Scope Function: let has block scope.
+Variables declared with let are scoped to the nearest enclosing block.
+
+Const:
+Redeclare: Variables declared with const cannot be redeclared within the same scope.
+Attempting to do so will result in an error.
+Access Before Declare: Variables declared with const are not accessible before they are declared. 
+If you try to access a const variable before its declaration, you will get a reference error.
+Variable Scope Drama: Variables declared with const have block scope. They are only accessible within the block in which they are declared, including nested blocks.
+Block or Scope Function: const has block scope.
+Variables declared with const are scoped to the nearest enclosing block.
+In summary,
+var has (function) scope and allows redeclaration and access before declaration.
+let and const have (block) scope, disallow redeclaration within the same scope, and do not allow access before declaration.
+Additionally, const variables are read-only and cannot be reassigned after they are declared.
+/***********************************************************************************/
+loosely typed in js and strongly typed?
+In JavaScript, the terms "loosely typed" and "strongly typed" are often used to describe the type system of the language.
+Let's explore what these terms mean:
+
+Loosely Typed (or Weakly Typed):
+JavaScript is considered a (loosely) typed or weakly typed language?!.
+This means that variables in JavaScript are not bound to a specific data type and can be dynamically assigned values of different types during runtime.
+For example, you can assign a number to a variable and later assign a string to the same variable without any explicit type declaration or conversion.
+Here's an example of loosely typed behavior in JavaScript:
+
+let x = 5; // x is a number
+x = "Hello"; // x is now a string
+x = true; // x is now a boolean
+In this example, the variable x starts as a number, but it can be reassigned to hold a string and later a boolean value.
+JavaScript performs implicit type conversions as necessary, which can sometimes lead to unexpected behavior if not handled carefully.
+
+ Strongly Typed:
+On the other hand, strongly typed languages enforce (strict) type rules and do not allow implicit type conversions.
+Variables in strongly typed languages must be explicitly declared with their types, and operations between different types generally require explicit type conversions.
+For example, in a strongly typed language like Java, you would explicitly declare the type of a variable and cannot assign values of different types without explicit type conversions:
+
+int x = 5; // x is an integer
+x = "Hello"; // This would result in a (compilation error) in Java
+The above code would fail to compile in Java because you cannot assign a string value to an integer variable (without explicit type casting or conversion)!?.
+
+It's important to note that loosely typed languages like JavaScript offer flexibility and ease of use with their dynamic typing, but they also require careful attention to type handling to avoid potential pitfalls or unexpected behavior. Strongly typed languages provide stricter type safety, which can help catch errors at compile-time and promote more robust code.
+
+It's worth mentioning that the terms "loosely typed" and "strongly typed" are not universally defined and can be interpreted differently in different contexts. The level of type enforcement and the behavior of type conversions can vary between programming languages.
+//================================================Tips============/
+aux or con are not defined as names for folder in windows
+//********************************************/
+Certainly! Here's a comprehensive list of escape sequences in JavaScript:
+\': Single quote
+\": Double quote
+\\: Backslash
+\n: Newline
+\r: Carriage return
+\t: Tab
+\b: Backspace
+\f: Form feed
+\v: Vertical tab
+\xXX: (ASCII) character based on hexadecimal representation.
+\uXXXX: (Unicode) character based on hexadecimal representation (with four digits).
+\u{XXXXXX}: (Unicode) character based on hexadecimal representation (with variable length).
+\0: (Null) character
+//*********************examples*************************/
+console.log('\'Single quote\'');
+console.log("\"Double quote\"");
+console.log("Backslash: \\");
+console.log("Newline:\nHello");
+console.log("Carriage return:\rWorld");
+
+console.log("Hello\r\nWorld");//notwork well
+console.log("Tab:\tIndented");
+
+console.log("Backspace:\b\nHello");//notwork well
+console.log("Backspace:\b Hello");
+
+console.log("Form feed:\fHello");//done
+console.log("Vertical tab:\vHello");//notwork well
+
+console.log("ASCII characters: \x41\x42\x43");//ABC
+console.log("ASCII characters: \x45\x42\x43");// EBC
+console.log("Unicode characters: \u03A9 \u{1F603} \u{1F4A9} \u{2665}");//Unicode characters: Ω 😃 💩 ♥
+console.log("Null character:\0End");//Null character:
+
+/*********************examples on console Methods*******************************/
+console.log("Hello from js learning");
+console.error("Error");
+console.table(["osama , ahmed , khaled"]);//0 index
+console.table(["osama" , "ahmed" , "khaled","ali"]);
+console.log("Hello from %cjs %clearning", "color: red; font-size: 40px", "color: blue; font-size: 40px");
+console.log("This is a log message.");// - Outputs a message to the console.
+console.error("This is an error message.");//Outputs an error message to the console.
+console.warn("This is a warning message.");//- Outputs a warning message to the console.
+console.info("This is an informational message.");//Outputs an informational message to the console
+console.clear();//- Clears the console.
+const data = [
+  { name: "John", age: 25 },
+  { name: "Jane", age: 30 },
+  { name: "Bob", age: 35 }
+];
+console.table(data);//Displays tabular data as a table.
+console.group("Group 1");//- Groups console log outputs together.
+console.log("Message 1");//
+console.log("Message 2");//
+console.groupEnd();//
+console.time("Timer");//- Starts a timer to track the duration of an operation.
+console.timeEnd("Timer");//
+console.trace();// - Outputs a stack trace to the console.
+console.dir();// Outputs a DOM element with an interactive tree in the console.
+
+/********************************************************** */
+JavaScript provides different data types to hold different types of values.
+ There are two types of data types in JavaScript:-
+
+1-Primitive data type:
+2-Non-primitive (reference) data type
+JavaScript is a dynamic type language?
+--means you don't need to specify type of the variable because it is dynamically used by JavaScript engine.
+
+You need to use var here to specify the data type. 
+It can hold any type of values such as numbers, strings etc.
+For example:
+var a=40;//holding number  
+var b="Rahul";//holding string  
+/*=======================================*/
+There are five types of primitive data types in JavaScript.
+They are as follows:
+Data Type	Description
+String	represents sequence of characters e.g. "hello".
+Number	represents numeric values e.g. (100).
+Boolean	represents boolean value either (false or true).
+Undefined	represents (undefined) value.
+(Null)	represents (null) i.e. no value at all.
+/*========================================================================*/
+JavaScript non-primitive data types?
+The non-primitive data types are as follows:
+Data Type	Description
+(Object)	represents instance through which we can access members
+(Array)	represents group of similar values
+(RegExp)	represents regular expression
+/*============================================================================*/
+Internals of global variable in JavaScript?
+When you declare a variable outside the function,
+it is added in the (window object internally).
+You can access it through (window object) also.
+   For example:
+var value=50;  
+function a(){  
+alert(window.value);//accessing global variable   
+}  
+/**************************************************************/
+Declaring JavaScript global variable within function!.
+To declare JavaScript global variables inside function,
+  you need to use (window object).
+  For example:
+window.value=90;  
+// Now it can be declared inside any function and can be accessed from any function.
+For example:
+function m(){  
+window.value=100;//declaring global variable by window object  
+}  
+function n(){  
+alert(window.value);//accessing global variable from other function  
+} 
+A JavaScript (global) variable is declared (outside) the function or declared with (window object).
+It can be accessed from any function.
+Let’s see the simple example of global variable in JavaScript.
+
+<script>  
+var value=50;//global variable  
+function a(){  
+alert(value);  
+}  
+function b(){  
+alert(value);  
+}  
+</script>  
+/*================code examples===================*/
+window.value=100;
+function m(){  
+    window.value=100;//declaring global variable by window object  
+    }  
+    function n(){  
+    alert(window.value);//accessing global variable from other function  
+    }  
+    n();
+    m();
+var value=50;//global variable  
+function a(){  
+alert(value);  
+}  
+function b(){  
+alert(value);  
+}  
+a();
+b();
+/******************************************************************/
